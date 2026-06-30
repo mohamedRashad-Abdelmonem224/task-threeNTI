@@ -1,4 +1,4 @@
-let product =require("../data/product");
+const product =require("../data/product");
 function removeproduct(id){
     const index=product.findIndex((product)=>{
         return product.id===id;
