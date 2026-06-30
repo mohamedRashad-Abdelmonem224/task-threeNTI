@@ -1,5 +1,4 @@
 const product = require("../data/product");
-let tasks = require("../data/product");
 function listproduct() {
     console.log(" product");
     if (!product.length) {
